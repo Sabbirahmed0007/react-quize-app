@@ -29,8 +29,8 @@ const Navbar = () => {
     const links = (
         <div className='space-x-2'>
 
-            <NavLink to={'/'} className={({isActive})=>isActive? 'underline  font-semibold font-saira':'hover:text-primary'}>Home</NavLink>
-            <NavLink to={'/quiz'} className={({isActive})=>isActive? 'underline hover:text-primary font-semibold font-saira':''}>Quiz</NavLink>
+            <NavLink to={'/'} className={({ isActive }) => isActive ? 'underline  font-semibold font-saira hover:text-primary':'hover:text-primary'}>Home</NavLink>
+            <NavLink to={'/quiz'} className={({ isActive }) => isActive ? 'underline font-semibold font-saira hover:text-primary':'hover:text-primary'}>Quiz</NavLink>
         </div>
     )
 
