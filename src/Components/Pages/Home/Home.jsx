@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee"
 
 const Home = () => {
     return (
-        <div>
+        <div className='h-screen'>
             <Marquee><span className='font-bold font-saira '>Breaking</span>: Something special is coming. Stay tuned!</Marquee>
         </div>
     );
