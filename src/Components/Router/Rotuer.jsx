@@ -31,10 +31,7 @@ const Rotuer = createBrowserRouter([
                 },
                 element:<Quiz></Quiz>
             },
-            {
-                path: '/answer',
-                element:<Answer></Answer>
-            }
+            
         ]
     }
 ])
